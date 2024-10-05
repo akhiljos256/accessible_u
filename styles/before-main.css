@@ -63,24 +63,13 @@ p {
  * Uses color alone to communicate "link"
  *
  */
-a {
-  color: #777777;
-	text-decoration: none;
-}
-/*
- * Provide additional visual cues to mouse users only
- *
- */
-a:hover {
-  color:#666666;
-  text-decoration: none;
-}
 
-/*
- * Overrides browsers' visible focus indicator
- *
- */
-a:hover, a:focus, input:focus {
-  outline: none;
-  border-color: transparent;
+a {
+ color: green;
+}
+a:hover {
+ text-decoration: none;
+}
+a {
+	text-decoration: underline;
 }
