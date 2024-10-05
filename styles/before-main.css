@@ -63,7 +63,9 @@ p {
  * Uses color alone to communicate "link"
  *
  */
-
+:focus {
+  outline: 3px solid rgba(23, 171, 23, 0.8) !important;
+}
 a {
  color: green;
 }
